@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Portfolio | Interactive Changelog</title>
+    <title>Portfolio | Pasindu Manahara</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,16 +21,19 @@
                 <button class="btn-cta"
                     onclick="document.getElementById('education').scrollIntoView({behavior: 'smooth'})">Education</button>
                 <button class="btn-cta"
-                    onclick="document.getElementById('tech_stack').scrollIntoView({behavior: 'smooth'})">Tech Stack</button>
+                    onclick="document.getElementById('tech_stack').scrollIntoView({behavior: 'smooth'})">Tech
+                    Stack</button>
                 <button class="btn-cta"
                     onclick="document.getElementById('tech_stack').scrollIntoView({behavior: 'smooth'})">Contacts</button>
-                    
+
             </div>
         </header>
 
         <div class="status-bar">
             <div class="status-dot"></div>
-            <span class="statusbar-txt"><p><strong>Current Status:</strong> Learning backend implementations with Java Spring Boot</p></span>
+            <span class="statusbar-txt">
+                <p><strong>Current Status:</strong> Learning backend implementations with Java Spring Boot</p>
+            </span>
         </div>
 
         <div class="timeline-grid">
@@ -48,18 +51,40 @@
                                 <h3>MediCare (Upcoming..)</h3>
                                 <span class="date">###</span>
                             </div>
-                            <p>A comprehensive healthcare platform managing patient records, staff scheduling, and billing cycles, developed following strict IEEE documentation standards.</p>
+                            <p>A comprehensive healthcare platform managing patient records, staff scheduling, and
+                                billing cycles, developed following strict IEEE documentation standards.</p>
                             <div class="tag-container">
                                 <span class="tag purple">Spring Boot</span>
                                 <span class="tag purple">Vanila-CSS</span>
                                 <span class="tag purple">JS</span>
                                 <span class="tag purple">MySql</span>
-                                <span class="tag orange"><a href=""
-                                        class="hover-link" target="">GitHub</a></span>
+                                <span class="tag orange"><a href="" class="hover-link" target="">GitHub</a></span>
                             </div>
                         </div>
                     </div>
                     <!-- reuse -->
+                    <!-- ------ -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon" style="border-color: var(--accent-orange)">
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>DSA Support</h3>
+                                <span class="date">May 2026</span>
+                            </div>
+                            <p>Interactive Data Structures & Algorithms Visualizer built for learning DSA concepts step
+                                by step through animations,
+                                visual states, and readable execution logs.</p>
+                            <div class="tag-container">
+                                <span class="tag purple">HTML</span>
+                                <span class="tag purple">Vanila-CSS</span>
+                                <span class="tag purple">JS</span>
+                                <span class="tag orange"><a href="https://github.com/pasindumanahara/DSASupport"
+                                        class="hover-link" target="_blank">GitHub</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------ -->
                     <div class="timeline-item">
                         <div class="timeline-icon" style="border-color: var(--accent-orange)">
                             <!-- <img src="./src/project_icon_1.png" alt="API Icon"> -->
@@ -94,7 +119,7 @@
                             <div class="tag-container">
                                 <span class="tag purple">HTML</span>
                                 <span class="tag purple">CSS</span>
-                                 <span class="tag orange"><a href="https://github.com/pasindumanahara/Portfolio"
+                                <span class="tag orange"><a href="https://github.com/pasindumanahara/Portfolio"
                                         class="hover-link" target="_blank">GitHub</a></span>
                             </div>
                         </div>
@@ -167,13 +192,13 @@
                             alt="MySql">
                         <span>MySql</span>
                     </div>
-                    
+
                     <div class="skill-card">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                             alt="MySql">
                         <span>Python</span>
                     </div>
-                    
+
                     <div class="skill-card">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="GIT">
                         <span>GIT</span>
@@ -203,14 +228,13 @@
                     <span>LinkedIn</span>
                 </a>
 
-                 <a href="mailto:manahara2003@gmail.com" target="_blank" class="contact-card">
+                <a href="mailto:manahara2003@gmail.com" target="_blank" class="contact-card">
                     <img src="https://cdn.simpleicons.org/gmail/gmail-original" alt="Email">
                     <span>Email</span>
                 </a>
 
                 <a href="https://github.com/pasindumanahara" target="_blank" class="contact-card">
-                    <img src="https://cdn.simpleicons.org/github/E0E0E0"
-                        alt="GitHub">
+                    <img src="https://cdn.simpleicons.org/github/E0E0E0" alt="GitHub">
                     <span>GitHub</span>
                 </a>
 
@@ -218,22 +242,22 @@
         </div>
 
         <div class="footer">
-            git commit -m "updates for <span id="last-update"></span> \n peace ✌︎︎" 
+            git commit -m "updates for <span id="last-update"></span> \n peace ✌︎︎"
         </div>
 
     </div>
 
     <script>
         // small snippet to get the last update, last part setting the format
-        document.getElementById('last-update').innerHTML = new Date(document.lastModified).toLocaleDateString('en-US', {month: 'short',year: 'numeric'});
-        
+        document.getElementById('last-update').innerHTML = new Date(document.lastModified).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+
         const linkedin = "www.linkedin.com/in/pasindu-manahara-1554502b3";
-        
+
         // If u here check console
         console.log("%c Hello there! 👋", "color: #00FF41; font-size: 20px; font-weight: bold;");
         console.log("If you are looking at this, we should talk code.");
         console.log(linkedin);
-        
+
     </script>
 
 </body>
